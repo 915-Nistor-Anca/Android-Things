@@ -8,7 +8,7 @@ This project demonstrates how to create an LED memory game. In this game, there 
 
 ## Pre-requisites
 * Arduino Uno board (or any compatible board)
-* 4 LEDs
+* 4 LEDs (5 mm)
 * 1 buzzer
 * 4 resistors (220 Ohms)
 * 14 jumper wires (m to m)
