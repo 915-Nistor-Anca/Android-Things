@@ -1,20 +1,21 @@
 
-# Led Memory Game
+# Barrier
 
 ## Overview
-This project demonstrates how to create an LED memory game. In this game, there are four LEDs, and the user has to remember the order in which the LEDs turn on. Once the sequence is shown, the user is asked to enter the same order using four push buttons. If they enter the sequence correctly, the game continues and a new LED blinking is added to the sequence. If the user fails, the game restarts with another random sequence. Additionally, there is a buzzer that creates sounds whenever a button is pressed or when the user makes a mistake.
+This project simulates how a barrier works in real life. The project contains a RFID reader. If the user brings the correct card close to the reader, the servo in the project moves, the green LED lights up, the buzzer makes a sound, and the barrier is raised for 3 seconds. After the seconds pass, the buzzer emits a warning signal that the barrier will close, and then it closes. The red LED is on while the barrier is closed. More than that, an application has been created in which the user can see the number and the time the barrier was raised.
 
 ## Schematics
-![alt text](barrier_schematics.png)
+![alt text](barrier_schematics.jpeg)
 
 ## Pre-requisites
 * Arduino Uno board (or any compatible board)
-* 4 LEDs (5 mm)
+* 2 LEDs, a green and a red one (5 mm)
 * 1 buzzer
-* 4 resistors (220 Ohms)
-* 14 jumper wires (m to m)
+* 3 resistors (220 Ohms)
+* several jumper wires (m to m)
+* RFID module with card and tag
 * 1 breadboard
-* 4 push buttons
+* 1 servo
 * A-B USB cable
 
 ## Setup and Build
@@ -25,4 +26,5 @@ This project demonstrates how to create an LED memory game. In this game, there 
 4. Select the board used from the list of boards (Arduino Uno). If the laptop can recognize the board, the connection will also appear under Ports. Select the port and press OK.
 5. If everything worked fine up to this point, the connected board should be visible on the bottom-right part of the screen. Otherwise, the board name and the message 'not connected' will be displayed.
 6. If the board is successfully connected, run the sketch by pressing the Verify button. If the sketch has compiled with no errors, press the Upload button.
+7. Open http://192.168.213.208 to see the application.
 ### Everything is completed, and it should work now. Have fun playing the game!
