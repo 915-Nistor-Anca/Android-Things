@@ -27,4 +27,4 @@ This project simulates how a barrier works in real life. The project contains a 
 5. If everything worked fine up to this point, the connected board should be visible on the bottom-right part of the screen. Otherwise, the board name and the message 'not connected' will be displayed.
 6. If the board is successfully connected, run the sketch by pressing the Verify button. If the sketch has compiled with no errors, press the Upload button.
 7. Open http://192.168.213.208 to see the application.
-### Everything is completed, and it should work now. Have fun playing the game!
+### Everything is completed, and it should work now. You can use the barrier!
