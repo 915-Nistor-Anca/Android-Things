@@ -16,7 +16,7 @@ This project simulates how a barrier works in real life. The project contains a 
 * RFID module with card and tag
 * 1 breadboard
 * 1 servo
-* A-B USB cable
+* A-micro USB cable
 
 ## Setup and Build
 
